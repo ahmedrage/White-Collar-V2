@@ -90,6 +90,8 @@
      <Compile Include="Assets\_Assets\main floor\Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\_Scripts\Dialouge.cs" />
      <Compile Include="Assets\_Scripts\DialougeChanger.cs" />
+     <Compile Include="Assets\_Scripts\DoorScript.cs" />
+     <Compile Include="Assets\_Scripts\PlayerMovement.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
