@@ -23,6 +23,7 @@ public class DoorScript : MonoBehaviour {
 
 	void Raycasting () {
 		RaycastHit hit;
+		Debug.DrawRay (transform.position, Player.transform.position, Color.red);
 		if (Physics.Raycast (transform.position, Player.transform.position, out hit, range, layerMask) == true) {
 			Teleport();
 		}
@@ -33,6 +34,7 @@ public class DoorScript : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.E)){
 		Player.transform.position = Target.position;
 		}
+			
 	}
 
 
